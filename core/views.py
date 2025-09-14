@@ -4,7 +4,7 @@ from rest_framework.decorators import api_view
 from .models import City
 from .serializers import CitySerializer
 
-API_KEY = "YOUR_API_KEY"  # replace with OpenWeatherMap key
+API_KEY = "fb3c85a5194dac52d9541aa6925a1144"  
 
 @api_view(['GET', 'POST'])
 def city_list(request):
